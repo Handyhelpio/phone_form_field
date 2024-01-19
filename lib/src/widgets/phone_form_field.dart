@@ -112,9 +112,10 @@ class PhoneFormField extends FormField<PhoneNumber> {
         const CountrySelectorNavigator.searchDelegate(),
     Function(PhoneNumber?)? super.onSaved,
     this.defaultCountry = IsoCode.US,
-    InputDecoration decoration =
-        const InputDecoration(border: UnderlineInputBorder()),
-    AutovalidateMode super.autovalidateMode = AutovalidateMode.onUserInteraction,
+    InputDecoration? decoration,
+    InputDecoration Function(FormFieldState<PhoneNumber>)? decorationBuilder,
+    AutovalidateMode super.autovalidateMode =
+        AutovalidateMode.onUserInteraction,
     PhoneNumber? initialValue,
     double flagSize = 16,
     PhoneNumberInputValidator? validator,
@@ -178,7 +179,9 @@ class PhoneFormField extends FormField<PhoneNumber> {
               errorText: field.getErrorText(),
               showDialCode: showDialCode,
               flagSize: flagSize,
-              decoration: decoration,
+              decoration: decoration ??
+                  decorationBuilder?.call(state) ??
+                  const InputDecoration(border: UnderlineInputBorder()),
               enabled: enabled,
               isCountrySelectionEnabled: isCountrySelectionEnabled,
               isCountryChipPersistent: isCountryChipPersistent,
