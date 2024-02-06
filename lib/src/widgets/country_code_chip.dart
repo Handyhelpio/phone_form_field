@@ -1,6 +1,7 @@
 import 'package:circle_flags/circle_flags.dart';
 import 'package:flutter/material.dart';
 import 'package:phone_numbers_parser/phone_numbers_parser.dart';
+import 'package:skeletonizer/skeletonizer.dart';
 
 import 'country_selector/country.dart';
 
@@ -43,9 +44,12 @@ class CountryCodeChip extends StatelessWidget {
           const SizedBox(width: 8),
         ],
         if (showFlag) ...[
-          CircleFlag(
-            country.isoCode.name,
-            size: flagSize,
+          Skeleton.replace(
+            replacement: Icon(Icons.flag, size: flagSize),
+            child: CircleFlag(
+              country.isoCode.name,
+              size: flagSize,
+            ),
           ),
           const SizedBox(width: 8),
         ],

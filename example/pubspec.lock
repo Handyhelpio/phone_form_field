@@ -179,10 +179,18 @@ packages:
     dependency: transitive
     description:
       name: phone_numbers_parser
-      sha256: "17a6686350c574a08f7beb839c5f908cc19b9c0eabd6e97029b517527a49da02"
+      sha256: d0dad4f5b61c3d959b069df088ef7242ffed42a3cf74c7549fd7c324e1eb964e
       url: "https://pub.dev"
     source: hosted
-    version: "8.1.0"
+    version: "8.1.3"
+  skeletonizer:
+    dependency: transitive
+    description:
+      name: skeletonizer
+      sha256: "86f373126d9a887a2d63f2463a9913a973ce7f282efa7f0d9d06a17e3f19838c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.0.1"
   sky_engine:
     dependency: transitive
     description: flutter
