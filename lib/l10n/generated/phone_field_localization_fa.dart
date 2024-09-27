@@ -1,5 +1,7 @@
 import 'phone_field_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Persian (`fa`).
 class PhoneFieldLocalizationFa extends PhoneFieldLocalization {
   PhoneFieldLocalizationFa([String locale = 'fa']) : super(locale);

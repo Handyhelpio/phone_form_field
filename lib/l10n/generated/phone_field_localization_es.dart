@@ -1,5 +1,7 @@
 import 'phone_field_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Spanish Castilian (`es`).
 class PhoneFieldLocalizationEs extends PhoneFieldLocalization {
   PhoneFieldLocalizationEs([String locale = 'es']) : super(locale);

@@ -1,5 +1,7 @@
 import 'phone_field_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Russian (`ru`).
 class PhoneFieldLocalizationRu extends PhoneFieldLocalization {
   PhoneFieldLocalizationRu([String locale = 'ru']) : super(locale);

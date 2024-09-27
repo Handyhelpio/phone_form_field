@@ -1,5 +1,7 @@
 import 'phone_field_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Turkish (`tr`).
 class PhoneFieldLocalizationTr extends PhoneFieldLocalization {
   PhoneFieldLocalizationTr([String locale = 'tr']) : super(locale);

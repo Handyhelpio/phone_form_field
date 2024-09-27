@@ -1,5 +1,7 @@
 import 'phone_field_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Portuguese (`pt`).
 class PhoneFieldLocalizationPt extends PhoneFieldLocalization {
   PhoneFieldLocalizationPt([String locale = 'pt']) : super(locale);

@@ -1,5 +1,7 @@
 import 'phone_field_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Modern Greek (`el`).
 class PhoneFieldLocalizationEl extends PhoneFieldLocalization {
   PhoneFieldLocalizationEl([String locale = 'el']) : super(locale);

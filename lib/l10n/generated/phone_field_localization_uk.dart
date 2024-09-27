@@ -1,5 +1,7 @@
 import 'phone_field_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Ukrainian (`uk`).
 class PhoneFieldLocalizationUk extends PhoneFieldLocalization {
   PhoneFieldLocalizationUk([String locale = 'uk']) : super(locale);

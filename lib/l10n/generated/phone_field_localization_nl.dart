@@ -1,5 +1,7 @@
 import 'phone_field_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Dutch Flemish (`nl`).
 class PhoneFieldLocalizationNl extends PhoneFieldLocalization {
   PhoneFieldLocalizationNl([String locale = 'nl']) : super(locale);

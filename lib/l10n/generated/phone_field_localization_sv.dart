@@ -1,5 +1,7 @@
 import 'phone_field_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Swedish (`sv`).
 class PhoneFieldLocalizationSv extends PhoneFieldLocalization {
   PhoneFieldLocalizationSv([String locale = 'sv']) : super(locale);

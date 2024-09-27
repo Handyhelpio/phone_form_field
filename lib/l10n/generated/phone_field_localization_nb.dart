@@ -1,5 +1,7 @@
 import 'phone_field_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Norwegian Bokmål (`nb`).
 class PhoneFieldLocalizationNb extends PhoneFieldLocalization {
   PhoneFieldLocalizationNb([String locale = 'nb']) : super(locale);

@@ -1,5 +1,7 @@
 import 'phone_field_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Chinese (`zh`).
 class PhoneFieldLocalizationZh extends PhoneFieldLocalization {
   PhoneFieldLocalizationZh([String locale = 'zh']) : super(locale);

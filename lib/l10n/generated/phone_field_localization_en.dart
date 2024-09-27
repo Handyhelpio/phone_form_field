@@ -1,5 +1,7 @@
 import 'phone_field_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for English (`en`).
 class PhoneFieldLocalizationEn extends PhoneFieldLocalization {
   PhoneFieldLocalizationEn([String locale = 'en']) : super(locale);

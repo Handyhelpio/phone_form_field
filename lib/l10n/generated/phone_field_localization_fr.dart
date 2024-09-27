@@ -1,5 +1,7 @@
 import 'phone_field_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for French (`fr`).
 class PhoneFieldLocalizationFr extends PhoneFieldLocalization {
   PhoneFieldLocalizationFr([String locale = 'fr']) : super(locale);

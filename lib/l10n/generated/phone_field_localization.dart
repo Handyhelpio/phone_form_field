@@ -24,6 +24,8 @@ import 'phone_field_localization_uk.dart';
 import 'phone_field_localization_uz.dart';
 import 'phone_field_localization_zh.dart';
 
+// ignore_for_file: type=lint
+
 /// Callers can lookup localized strings with an instance of PhoneFieldLocalization
 /// returned by `PhoneFieldLocalization.of(context)`.
 ///

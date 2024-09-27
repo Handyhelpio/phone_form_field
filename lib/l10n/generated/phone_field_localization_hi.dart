@@ -1,5 +1,7 @@
 import 'phone_field_localization.dart';
 
+// ignore_for_file: type=lint
+
 /// The translations for Hindi (`hi`).
 class PhoneFieldLocalizationHi extends PhoneFieldLocalization {
   PhoneFieldLocalizationHi([String locale = 'hi']) : super(locale);
