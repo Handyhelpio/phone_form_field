@@ -163,6 +163,7 @@ class PhoneFormField extends FormField<PhoneNumber> {
     bool enableIMEPersonalizedLearning = true,
     this.showDialCode = true,
     this.showIsoCodeInInput = false,
+    super.forceErrorText,
   })  : assert(
           initialValue == null || controller == null,
           'One of initialValue or controller can be specified at a time',
